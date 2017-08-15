@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #cacbce;
+}
+.titrare{
+  padding: 2em 1em 1em 1em;
+  background-color: white;
+}
+.titrare span{
+  font-weight: 600;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+.clip{
+  margin: 0 auto;
+  height: 20em;
+
+}
+.wraper{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titrare p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+@media screen and (min-width : 768px) {
+  .wraper{
+    margin-top: 2em;
+  }
+  .titrare {
+    padding: 1em 2em;
+  }
+}
