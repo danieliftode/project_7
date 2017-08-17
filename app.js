@@ -3,10 +3,10 @@ var unu = document.querySelectorAll('.titrare span');
 var acum = vid.currentTime;
 $('video').mediaelementplayer({
   stretching: 'fill',
-  features: ['playpause', 'volume', 'progress', 'fullscreen'],
+  features: ['playpause','current', 'volume', 'progress','duration', 'fullscreen' ],
   videoVolume: 'horizontal',
   startVolume: 0.1,
-  startLanguage: '',
+  startLanguage: ''
 })
 vid.addEventListener('timeupdate', (e) => {
   for (var i = 0; i < unu.length; i++){

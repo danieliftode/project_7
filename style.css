@@ -17,7 +17,7 @@ body{
 }
 .clip{
   margin: 0 auto;
-  height: 20em;
+  height: 35em;
 
 }
 .wraper{
@@ -35,5 +35,12 @@ body{
   }
   .titrare {
     padding: 1em 2em;
+  }
+  .clip{
+    margin: 0 auto;
+    height: 30em;
+  }
+  body{
+    background-color: white;
   }
 }
